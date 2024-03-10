@@ -174,8 +174,7 @@ h3 {
   
 }
 .about-company li {
-  flex-basis: calc((100%-24px*3)/4);
-  /* justify-content: space-evenly; */
+  width: calc((100% - 24px * 3) / 4);
 }
 /*---------------  */
 .about-company-title {
