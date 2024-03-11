@@ -15,19 +15,12 @@
   justify-content: center;
 }
 .header {
-  /* display: flex;
-  flex-direction: row;
-  justify-content: space-around; */
-  border: 1px solid #e7e9fc; 
-}
-/* .header-container */
-.header-container {
     display: flex;
     flex-direction: row;
     margin: 0 auto;
     padding: 0 15px;
     width: 1158px;
-    
+    border: 1px solid #e7e9fc;
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -178,10 +171,10 @@ h3 {
  {
   background-color: #404BBF;
 }
-/* .company {
+.company {
 padding: 120px 0;
 
-} */
+} 
 .about-company {
   display: flex;
   flex-direction: row;
@@ -232,13 +225,15 @@ padding: 120px 0;
 }
 .our-team-li {
   background-color: #FFFFFF;
+  flex-basis: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
 }
 .our-team-li-text {
-  margin: 32px 16px;
+  padding: 32px 0;
   text-align: center;
 }
 .title-h-three {
-  padding-bottom: 8px;
+  margin-bottom: 8px;
 }
 /* .our-team img {
   qwidth: 264px;
@@ -267,6 +262,7 @@ padding: 120px 0;
 .portfolio-li-text {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
+  border-top: none;
 }
 .portfolio-title{
   font-weight: 700;
