@@ -20,7 +20,7 @@
   justify-content: space-around; */
   border: 1px solid #e7e9fc; 
 }
-.header-comtainer {
+.header-container {
     display: flex;
     flex-direction: row;
     margin: 0 auto;
@@ -135,6 +135,7 @@ h3 {
 }
 .nav-studio {
   color: #2e2f42;
+  padding: 24px 0;
 }
 
 .slogan-title {
@@ -174,10 +175,10 @@ h3 {
  {
   background-color: #404BBF;
 }
-.company {
+/* .company {
 padding: 120px 0;
 
-}
+} */
 .about-company {
   display: flex;
   flex-direction: row;
@@ -185,9 +186,7 @@ padding: 120px 0;
 
   max-width: 1128px;
 }
-.company-conteiner {
-  padding: 120px 0;
-}
+
 .about-company-conteiner {
   display: flex;
   justify-content: center;
@@ -198,9 +197,9 @@ padding: 120px 0;
   width: calc((100% - 24px * 3) / 4);
 }
 /*---------------  */
-.about-company-title {
+/* .about-company-title {
   visibility: hidden;
-}
+} */
 /* -------------- */
 .our-team {
     display: flex;
@@ -208,11 +207,7 @@ padding: 120px 0;
       padding-top: 120px;
       padding-bottom: 120px;
 }
-.our-team-conteiner {
-  display: flex;
-  justify-content: center;
-}
-.our-team-conteiner ul{
+.our-team-ul{
   display: flex;
   flex-direction: row;
   gap: 24px;
@@ -245,22 +240,30 @@ padding: 120px 0;
 /* .our-team img {
   qwidth: 264px;
 } */
-.portfolio-container {
+.container {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-top: 120px;
-  padding-bottom: 120px;
+
 }
-.portfolio-container ul {
+.portfolio {
+  padding-top: 120px;
+    padding-bottom: 120px;
+}
+.portfolio-ul {
   display: flex;
   flex-direction: row;
   justify-content: center;
   flex-wrap: wrap;
   gap: 24px;
+  row-gap: 48px;
+}
+.portfolio-li {
+  width: calc((100% - 48px) / 3);
 }
 .portfolio-li-text {
-  margin: 32px 16px;
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
 }
 .portfolio-title{
   font-weight: 700;
@@ -270,7 +273,7 @@ padding: 120px 0;
     text-transform: capitalize;
     text-align: center;
     color: #2e2f42;
-    padding-bottom: 72px;
+    margin-bottom: 72px;
 }
 /* .portfolio-title img {
   qwidth: 360px;
@@ -280,12 +283,9 @@ padding: 120px 0;
 .footer {
   background-color: #2e2f42;
   padding: 100px 0 100px 156px;
+      max-width: 264px;
 
 }
-.footer-container{
-    max-width: 264px;
-}
-
 .footer-text {
   color: #f4f4fd;
   padding-top: 16px;
