@@ -20,6 +20,7 @@
   justify-content: space-around; */
   border: 1px solid #e7e9fc; 
 }
+/* .header-container */
 .header-container {
     display: flex;
     flex-direction: row;
@@ -141,7 +142,8 @@ h3 {
 .slogan-title {
   line-height: 1.07;
   max-width: 496px;
-  margin-bottom: 46px;
+  /* margin-bottom: 46px; */
+  margin: 0 auto;
 }
 .slogan {
   display: flex;
@@ -166,6 +168,7 @@ h3 {
   min-width: 169px;
   border-radius: 4px;
   padding: 16px 32px;
+  margin: 0 auto;
     /* qbox-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15); */
   /* qborder-radius: 4px; */
 
@@ -284,6 +287,7 @@ padding: 120px 0;
   background-color: #2e2f42;
   padding: 100px 0 100px 156px;
       max-width: 264px;
+      padding: 100px 0;
 
 }
 .footer-text {
