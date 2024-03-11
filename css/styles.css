@@ -14,7 +14,10 @@
   padding-right: 0;
   justify-content: center;
 }
-.conteiner {
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
@@ -31,7 +34,7 @@ body {
   font-family: "Roboto", sans-serif;
   background: #fff;
   color: #434455;
-   display: flex;
+  display: flex;
   justify-content: center; 
 }
 /* .slogan {
@@ -108,10 +111,7 @@ h3 {
 .baner {
  margin-right: 76px;
 }
-.baner-footer{
-  display: inline-block;
-  margin-bottom: 16px;
-}
+
 .nav-link a {
   font-weight: 500;
   font-size: 16px;
@@ -135,6 +135,17 @@ h3 {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+}
+.webstudio-footer {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 .nav-studio {
   color: #2e2f42;
@@ -247,12 +258,7 @@ padding: 120px 0;
 /* .our-team img {
   qwidth: 264px;
 } */
-.container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
 
-}
 .portfolio {
   padding-top: 120px;
     padding-bottom: 120px;
