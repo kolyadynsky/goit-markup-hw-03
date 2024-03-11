@@ -6,7 +6,7 @@
  img {
   display: block;
  }
-.conteiner {
+.main-conteiner {
   display: flex;
   max-width: 1440px;
   flex-direction: column;
@@ -14,10 +14,19 @@
   padding-right: 0;
   justify-content: center;
 }
-header {
-  display: flex;
+.header {
+  /* display: flex;
   flex-direction: row;
- justify-content: space-around; 
+  justify-content: space-around; */
+  border: 1px solid #e7e9fc; 
+}
+.header-comtainer {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    padding: 0 15px;
+    width: 1158px;
+    
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -72,6 +81,7 @@ h3 {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  padding: 24px 0;
 }
 .address-link:focus {
   color: #404bbf;
@@ -81,10 +91,12 @@ h3 {
 }
  .nav, .nav-link, .address ul {
   display: flex;
-  flex-direction: row;
+    flex-direction: row;
 }
 .nav {
   gap: 76px;
+  align-items: center;
+
 }
 .nav-link, .address ul {
   gap: 40px;
@@ -94,7 +106,9 @@ h3 {
     padding-bottom: 24px;
     margin: 0;
 }
-
+.baner {
+ margin-right: 76px;
+}
 .nav-link a {
   font-weight: 500;
   font-size: 16px;
@@ -131,13 +145,14 @@ h3 {
 .slogan {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  padding: 188px 0;
   justify-content: center;
   background: #2e2f42;
   /* qwidth: 1440px; */
-    height: 600px;
+
 }
 .slogan-button {
+  display: block;
   font-family: "Roboto", sans-serif;
   cursor: pointer;
   background: #4d5ae5;
@@ -146,19 +161,22 @@ h3 {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
-  width: 172px;
+  border: none;
+  min-width: 169px;
   border-radius: 4px;
   padding: 16px 32px;
     /* qbox-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15); */
   /* qborder-radius: 4px; */
-  /* qpadding: 16px 32px; */
-  /* qwidth: 169px;
-  qheight: 56px; */
+
 }
 .slogan-button:hover,
 .slogan-button:focus
  {
   background-color: #404BBF;
+}
+.company {
+padding: 120px 0;
+
 }
 .about-company {
   display: flex;
@@ -166,6 +184,9 @@ h3 {
   gap: 24px;
 
   max-width: 1128px;
+}
+.company-conteiner {
+  padding: 120px 0;
 }
 .about-company-conteiner {
   display: flex;
@@ -178,7 +199,7 @@ h3 {
 }
 /*---------------  */
 .about-company-title {
-  display: none;
+  visibility: hidden;
 }
 /* -------------- */
 .our-team {
@@ -256,7 +277,7 @@ h3 {
 } */
 
 /* footer */
-footer {
+.footer {
   background-color: #2e2f42;
   padding: 100px 0 100px 156px;
 
