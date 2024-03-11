@@ -14,12 +14,17 @@
   padding-right: 0;
   justify-content: center;
 }
+.conteiner {
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
 .header {
     display: flex;
     flex-direction: row;
-    margin: 0 auto;
+    /* margin: 0 auto;
     padding: 0 15px;
-    width: 1158px;
+    width: 1158px; */
     border: 1px solid #e7e9fc;
 }
 body {
@@ -102,6 +107,10 @@ h3 {
 }
 .baner {
  margin-right: 76px;
+}
+.baner-footer{
+  display: inline-block;
+  margin-bottom: 16px;
 }
 .nav-link a {
   font-weight: 500;
