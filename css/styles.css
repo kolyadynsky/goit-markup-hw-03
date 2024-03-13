@@ -216,6 +216,9 @@ padding: 120px 0;
 .about-company-title {
   visibility: hidden;
 } 
+#wh {
+    visibility: hidden;
+}
 /* -------------- */
 .our-team {
     display: flex;
