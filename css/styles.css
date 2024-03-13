@@ -108,10 +108,6 @@ h3 {
     padding-bottom: 24px;
     margin: 0;
 }
-.baner {
- margin-right: 76px;
-}
-
 .nav-link a {
   font-weight: 500;
   font-size: 16px;
@@ -135,6 +131,7 @@ h3 {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-right: 76px;
 }
 .webstudio-footer {
   font-family: "Raleway", sans-serif;
@@ -144,8 +141,11 @@ h3 {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  display: inline-block;
+
   margin-bottom: 16px;
+}
+.baner-footer {
+  display: inline-block;
 }
 .nav-studio {
   color: #2e2f42;
@@ -213,9 +213,9 @@ padding: 120px 0;
   width: calc((100% - 24px * 3) / 4);
 }
 /*---------------  */
-/* .about-company-title {
+.about-company-title {
   visibility: hidden;
-} */
+} 
 /* -------------- */
 .our-team {
     display: flex;
